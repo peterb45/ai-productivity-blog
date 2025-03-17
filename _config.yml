@@ -2,3 +2,6 @@ theme: minima
 title: AI Productivity Blog
 description: AI tools, automation strategies, and productivity hacks to help individuals and businesses work smarter.
 show_title: false
+header_pages:
+  - Best_AI_Productivity_Tools_in_2025.md
+  - How_to_Automate_Your_Business_with_AI.md
