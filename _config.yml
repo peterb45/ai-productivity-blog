@@ -2,18 +2,21 @@ theme: minima
 title: AI Productivity Blog
 description: AI tools, automation strategies, and productivity hacks to help individuals and businesses work smarter.
 
-# Prevents Jekyll from automatically displaying the title again
-show_title: false
+# Minima-specific settings
+show_excerpts: true  # Show summaries instead of full posts on the homepage
+show_title: false    # Prevents duplicate titles (may need layout change)
 
 # Navigation links for header
 header_pages:
   - Best_AI_Productivity_Tools_in_2025.md
   - How_to_Automate_Your_Business_with_AI.md
 
-# Set the base URL (Optional: Remove if not using a custom domain)
-# baseurl: "/ai-productivity-blog"
-
-# GitHub Pages settings (Optional)
+# Plugin settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Custom settings to fix duplicate title issue
+minima:
+  skin: auto
+  social_links: []
