@@ -18,5 +18,5 @@ plugins:
 
 # Custom settings to fix duplicate title issue
 minima:
-  skin: auto
+  skin: auto 
   social_links: []
