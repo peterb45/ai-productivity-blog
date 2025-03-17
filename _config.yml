@@ -4,7 +4,7 @@ description: AI tools, automation strategies, and productivity hacks to help ind
 
 # Minima-specific settings
 show_excerpts: true  # Show summaries instead of full posts on the homepage
-show_title: false    # Prevents duplicate titles (may need layout change)
+show_title: false  # Prevents duplicate titles (may need layout change)
 
 # Navigation links for header
 header_pages:
@@ -19,4 +19,4 @@ plugins:
 # Custom settings to fix duplicate title issue
 minima:
   skin: auto
-  social_links: [] 
+  social_links: []
