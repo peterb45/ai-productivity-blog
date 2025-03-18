@@ -11,4 +11,4 @@ This blog explores AI tools, automation strategies, and productivity hacks.
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
-Y
+
