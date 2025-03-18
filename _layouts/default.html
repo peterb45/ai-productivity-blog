@@ -13,6 +13,21 @@
     {% seo %}
 </head>
 <body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            {{ content }}
+        </div>
+        <aside>
+            {% include sidebar.html %}
+        </aside>
+    </main>
+
+    {% include footer.html %}
+</body>
 
 <header>
     <h1>{{ site.title }}</h1>
