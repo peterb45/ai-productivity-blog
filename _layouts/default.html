@@ -3,29 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
-
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    
     {% feed_meta %}
     {% seo %}
 </head>
 <body>
+
 <header>
-    {% if site.minima.show_title != false %}
-        <h1>{{ site.title }}</h1>
-    {% endif %}
+    <h1>{{ site.title }}</h1>
 </header>
 
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        {{ content }}
+    </div>
+</main>
 
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
-    </main>
+<footer>
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+</footer>
 
-    <footer>
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
-    </footer>
 </body>
 </html>
