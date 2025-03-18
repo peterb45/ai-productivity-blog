@@ -1,28 +1,25 @@
-title: AI Productivity Blog
-description: AI tools, automation strategies, and productivity hacks to help individuals and businesses work smarter.
+title: "AI Productivity Blog"
+description: "Exploring AI tools, automation strategies, and productivity hacks."
+baseurl: "/ai-productivity-blog"
+url: "https://peterb45.github.io"
+
+# Minima theme settings
 theme: minima
 
 # Minima-specific settings
 minima:
   skin: auto
   social_links: []
+  date_format: "%b %-d, %Y"
 
-show_excerpts: true  # Show summaries instead of full posts on the homepage
-show_title: false    # Prevents duplicate titles
-
-# Navigation links for header
+# Navigation settings
 header_pages:
-  - Best_AI_Productivity_Tools_in_2025.md
-  - How_to_Automate_Your_Business_with_AI.md
+  - index.md
 
 # Plugin settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Base URL (Ensure it's correct)
-baseurl: "/ai-productivity-blog"
-url: "https://peterb45.github.io"
-
-# Markdown processing
+# Markdown Processing
 markdown: kramdown
