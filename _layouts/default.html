@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title and site.minima.show_title != false %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
     {% feed_meta %}
@@ -12,7 +12,9 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
+        {% if site.minima.show_title != false %}
+            <h1>{{ site.title }}</h1>
+        {% endif %}
     </header>
 
     <main class="page-content" aria-label="Content">
