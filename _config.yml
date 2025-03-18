@@ -7,7 +7,7 @@ theme: minima
 minima:
   skin: auto
   social_links: []
-  show_title: false  # <== Prevents duplicate titles
+  show_title: false <== Prevents duplicate titles
 
 # Navigation links for header
 header_pages:
