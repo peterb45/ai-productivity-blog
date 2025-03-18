@@ -1,22 +1,24 @@
-/* Base styling */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
     margin: 20px;
     padding: 20px;
-    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
 }
 
-/* Header styling */
+/* Heading Styles */
 h1, h2, h3 {
+    font-weight: 700;
     color: #222;
-    margin-bottom: 10px;
 }
 
-/* Links */
+/* Link Styles */
 a {
-    color: #007bff;
+    color: blue;
     text-decoration: none;
 }
 
@@ -24,58 +26,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navigation Bar */
-nav {
-    background: #007bff;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background: #0056b3;
-    border-radius: 5px;
-}
-
-/* Content Wrapper */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-/* Blog Post Styling */
-.post-title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.post-meta {
-    font-size: 14px;
-    color: #777;
-}
-
-.post-content {
-    font-size: 16px;
-    text-align: justify;
-}
-
-/* Footer */
+/* Footer Styles */
 footer {
-    text-align: center;
     margin-top: 20px;
-    padding: 10px;
-    background: #007bff;
-    color: #fff;
+    text-align: center;
     font-size: 14px;
 }
+
 
