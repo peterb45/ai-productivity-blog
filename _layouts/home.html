@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Welcome to AI Productivity Blog!"
+---
+
+<div class="home-intro">
+    <h2>Welcome to AI Productivity Blog!</h2>
+    <p>This blog explores AI tools, automation strategies, and productivity hacks.</p>
+</div>
+
+<h3>Recent Posts:</h3>
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
